@@ -20,5 +20,6 @@ from jalr_app2 import views as vr2
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('vista3',vr2.vistaTres)
+    path('vista3',vr2.vistaTres),
+    path('vista4',vr2.vistaCuatro),
 ]
